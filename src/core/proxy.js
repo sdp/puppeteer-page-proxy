@@ -41,7 +41,7 @@ const requestHandler = async (request, proxy, overrides = {}) => {
             console.log("Inside setCookieHeader");
             await cookieHandler.setCookies(setCookieHeader);
             response.headers["set-cookie"] = undefined;
-            console.log("Done setCookieHeader"
+            console.log("Done setCookieHeader");
         }
         console.log("Starting request...");
         await request.respond({

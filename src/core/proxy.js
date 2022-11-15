@@ -1,4 +1,4 @@
-const got = require("got");
+import got from 'got';
 const CookieHandler = require("../lib/cookies");
 const {setHeaders, setAgent} = require("../lib/options");
 const type = require("../util/types");

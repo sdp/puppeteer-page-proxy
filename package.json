@@ -23,7 +23,7 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "got": "^12.5.2",
+    "got": "^12.5.3",
     "http-proxy-agent": "^5.0.0",
     "https-proxy-agent": "^5.0.1",
     "socks-proxy-agent": "^7.0.0",

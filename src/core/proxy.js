@@ -1,7 +1,7 @@
 import got from 'got';
-const CookieHandler = require("../lib/cookies");
-const {setHeaders, setAgent} = require("../lib/options");
-const type = require("../util/types");
+import {CookieHandler} from ("../lib/cookies");
+import {setHeaders, setAgent} from ("../lib/options");
+import {type} from ("../util/types");
 
 // Responsible for applying proxy
 const requestHandler = async (request, proxy, overrides = {}) => {
